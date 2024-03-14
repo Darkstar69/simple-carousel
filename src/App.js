@@ -41,8 +41,8 @@ const App = () => {
       <div className='h-[80vh] w-full bg-center bg-cover max-h-[80vh] max-w-[100vw] brightness-50 transition-all delay-100' style={{ backgroundImage: `url(${slides[currentIndex].url})` }}>
       </div>
       <div className='text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
-        <h1 className='font-bold text-6xl'>Your Site Name</h1>
-        <p className='font-semibold text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit perferendis natus nesciunt quisquam? Veniam!</p>
+        <h1 className='font-bold text-3xl md:text-6xl'>Your Site Name</h1>
+        <p className='font-semibold text-lg md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugit perferendis natus nesciunt quisquam? Veniam!</p>
       </div>
       <MdArrowBackIos onClick={prevSlide} size={45} className='absolute top-1/2 left-8 text-white
        cursor-pointer ' />
