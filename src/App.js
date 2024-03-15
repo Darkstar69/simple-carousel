@@ -50,7 +50,7 @@ const App = () => {
        cursor-pointer rotate-180' />
       <div className='flex items-center justify-center gap-2 absolute bottom-4 left-1/2 -translate-x-1/2'>
         {slides.map((val, index) => (
-          <div key={index} className={`h-2 w-2 rounded-full ${index === currentIndex ? "bg-white" : "bg-gray-600"}`}></div>
+          <div key={index} onClick={()=>goToslide(index)} className={`cursor-pointer h-2 w-2 rounded-full ${index === currentIndex ? "bg-white" : "bg-gray-600"}`}></div>
         ))}
       </div>
     </div>
